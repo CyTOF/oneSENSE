@@ -1,5 +1,12 @@
 \name{NEWS}
 \title{News for Package \pkg{oneSENSE}}
+\section{Changes in version 0.99.3 (2017-6-19)}{
+  \subsection{MODIFICATION}{
+    \itemize{
+      \item Removed getParameters.GUI deprecated function
+    }
+  }
+}
 \section{Changes in version 0.99.1 (2017-6-19)}{
   \subsection{MODIFICATION}{
     \itemize{
