@@ -31,7 +31,6 @@ FCStSNE <- function (LoaderPATH ="fcs",
                      DoOneSENSE = TRUE,
                      Bins = 250) #it doesnt use the variable bins in the code below
 {
-
   fs <-read.flowSet(path = LoaderPATH, pattern = ".fcs$") #Read one or several FCS files, path is the directory
   FcsFileNames <- rownames(keyword(fs, "FILENAME")) #keyword: Retreive keywords of a flowFrame #rownames require
   NumBC <- length(fs) #3

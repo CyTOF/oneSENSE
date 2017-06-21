@@ -169,6 +169,7 @@ server <- function(input, output, session) {
     getCoords(LoaderPATH = paste(parseDirPath(volumes, input$directory), "_Out", sep =""), FFdata = FFdata)
     updateTabsetPanel(session, "Tabset1", selected = "CoordSelect")
 
+    Mid <- numeric(length = length(gckeepnames))
     values <-reactiveValues()
     values$df <- data.frame(Mid, row.names = gckeepnames)
 

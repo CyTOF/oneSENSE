@@ -252,7 +252,7 @@ getCoords <- function(LoaderPATH = LoaderPATH, FFdata = FFdata) {
 
 
   #Min <- numeric(length = length(keepnames))
-  Mid <<- numeric(length = length(gckeepnames))
+  #Mid <<- numeric(length = length(gckeepnames))
   #Max <- numeric(length = length(keepnames))
 }
 
